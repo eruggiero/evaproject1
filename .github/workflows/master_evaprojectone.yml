@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -31,4 +32,4 @@ jobs:
       with:
         app-name: 'evaprojectone'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e8af44d5dd294908b19da790568df251 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_29f72d31693d4e87880aaf82f6fca01b }}
