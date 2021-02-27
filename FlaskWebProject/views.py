@@ -21,7 +21,7 @@ imageSourceUrl = 'https://'+ app.config['BLOB_ACCOUNT']  + '.blob.core.windows.n
 def home():
     user = User.query.filter_by(username=current_user.username).first_or_404()
     if(current_user.is_authenticated):
-              app.logger.info('User successfully logged in')
+              app.logger.error('User successfully logged in')
     elif(not current_user.is_authenticated):
         app.logger.info('Unsuccessful login')
     posts = Post.query.all()
