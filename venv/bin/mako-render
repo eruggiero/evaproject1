@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/er345m/Desktop/AzureND_project1/evaproject1/nd081-c1-provisioning-microsoft-azure-vms-project-starter/venv/bin/python3
+=======
+#!/Users/er345m/Desktop/evaproject1/venv/bin/python3
+>>>>>>> cf3dfaaa418cc767553fe08c4a4ac654536a2743
 # EASY-INSTALL-ENTRY-SCRIPT: 'Mako==1.1.1','console_scripts','mako-render'
 import re
 import sys

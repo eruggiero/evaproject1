@@ -37,7 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="/Users/er345m/Desktop/AzureND_project1/evaproject1/nd081-c1-provisioning-microsoft-azure-vms-project-starter/venv"
+=======
+VIRTUAL_ENV="/Users/er345m/Desktop/evaproject1/venv"
+>>>>>>> cf3dfaaa418cc767553fe08c4a4ac654536a2743
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

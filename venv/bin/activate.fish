@@ -29,7 +29,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/Users/er345m/Desktop/AzureND_project1/evaproject1/nd081-c1-provisioning-microsoft-azure-vms-project-starter/venv"
+=======
+set -gx VIRTUAL_ENV "/Users/er345m/Desktop/evaproject1/venv"
+>>>>>>> cf3dfaaa418cc767553fe08c4a4ac654536a2743
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
